@@ -125,5 +125,15 @@ body{
         outline: none;
     }
 
+    .legacy-form-row{
+        margin-bottom: 10px;
+    }
     
+    .legacy-form-row legend{
+        width: 120px;
+        text-align: right;
+        padding-right: 20px;
+        float: left;
+    }
+
 }
