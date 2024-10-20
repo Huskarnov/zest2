@@ -79,10 +79,10 @@ body{
     margin-bottom: 15px;
 }
 
-.legacy-form-row .radio-label{
+.radio-label{
     display: block;
     font-size: 14px;
-    padding: 0 10px 0 10px;
+    padding: 0 5px 0 0;
 }
 
 .legacy-form-row input[type='radio']{
@@ -138,6 +138,7 @@ body{
     .form-row input[type='text'],  .form-row input[type="email"], select, textarea{
         width: 250px;
         height: initial;
+        
     }
 
     .form-row label{
@@ -170,6 +171,9 @@ body{
         margin-left: 120px;
     }
 
-
+    .form-row .checkbox-label{
+        margin-left: 120px;
+        width: auto;
+    }
 
 }
